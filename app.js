@@ -114,6 +114,7 @@ window.addEventListener('load',() => {
 
                 deg.textContent = getTemp(weTemp).kelvin;
                 unit.textContent = 'K';
+                
 
             }
 
