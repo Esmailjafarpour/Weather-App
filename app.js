@@ -100,6 +100,7 @@ window.addEventListener('load',() => {
         tede.textContent = weDes;
 
         dese.addEventListener('click',(e)=>{
+            
             if (unit.textContent === 'K') {
 
                 deg.textContent = getTemp(weTemp).Fahrenheit;
